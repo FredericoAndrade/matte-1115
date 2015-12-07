@@ -1,38 +1,41 @@
 @import "variables.styl" on line 1
 
 @media all and (min-width:601px)
-	.home
+	body
 		#mobile-header
 			display none
 
 @media all and (max-width:600px)
-	.home
+	body
+		#nav
+			display none
+		
 		#mobile-header
 			background $blue
 			position relative
 			height 60px
 			
-			#nav-trigger
-				position absolute
-				top 50%
-				left 2%
-				transform translateY(-50%)
-				background none
-				border none
-				color $bronze
-				font-size 40px
+		#nav-trigger
+			position absolute
+			top 50%
+			left 2%
+			transform translateY(-50%)
+			background none
+			border none
+			color $bronze
+			font-size 40px
 
-			#mobile-logo
-				position absolute
-				top 50%
-				left 50%
-				transform translate(-50%, -50%)
-				
-				img
-					height 45px
-					width 100%
-					
+		#mobile-logo
+			position absolute
+			top 50%
+			left 50%
+			transform translate(-50%, -50%)
+			
+			img
+				height 45px
+				width 100%
 
+	.home
 		.main-content
 			position relative
 			top initial
@@ -45,6 +48,3 @@
 			.home-slider
 				height 100vh
 				overflow initial
-
-		#nav
-			display none
