@@ -68,7 +68,48 @@
   padding: 0;
 }
 .page-id-24 .main-content {
+  color: #f4eee6;
+  background: #00253c;
   width: 100%;
   padding-left: 400px;
   box-sizing: border-box;
+}
+.page-id-24 .main-content .two-col {
+  width: 50%;
+  float: left;
+}
+.page-id-24 .main-content .two-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+.page-id-24 .main-content .two-col ul li {
+  width: 100%;
+  display: inline-block;
+}
+.page-id-24 .main-content .two-col ul li fieldset legend {
+  float: left;
+}
+.page-id-24 .main-content .two-col ul li fieldset label {
+  float: left;
+}
+.page-id-24 .main-content .two-col ul li fieldset label input {
+  float: left;
+  width: initial;
+}
+.page-id-24 .main-content .two-col ul li label {
+  width: inherit;
+  float: left;
+}
+.page-id-24 .main-content .two-col ul li label input,
+.page-id-24 .main-content .two-col ul li label select,
+.page-id-24 .main-content .two-col ul li label textarea {
+  border-radius: 0;
+  background: transparent;
+  border: 0px solid #f4eee6;
+  border-bottom-width: 1px;
+  width: 60%;
+  float: right;
+}
+.page-id-24 .main-content .two-col ul li label select option {
+  border-radius: 0;
 }
