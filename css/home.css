@@ -1,0 +1,60 @@
+.home .main-content {
+  position: absolute;
+  top: 0;
+  left: 520px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 0 0 400px;
+  box-sizing: border-box;
+}
+
+.home .main-content .home-slider {
+  max-width: initial !important;
+  height: 100%;
+  overflow: hidden;
+}
+
+.home .main-content .home-slider > div {
+  height: 100%;
+}
+
+.home .main-content .home-slider .flexslider {
+  margin: 0;
+}
+
+.home .main-content .home-slider .flexslider,
+.home .main-content .home-slider .flexslider ul,
+.home .main-content .home-slider .flexslider ul li,
+.home .main-content .home-slider .flexslider ul li img {
+  height: inherit;
+}
+
+.home .main-content .home-slider .flexslider ul li img {
+  position: absolute;
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home .main-content .home-slider .flexslider ol.flex-control-nav {
+  bottom: 0;
+  z-index: 5;
+  padding: 45px;
+  box-sizing: border-box;
+}
+
+.home .main-content .home-slider .flexslider ol.flex-control-nav li a {
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
+  background: transparent;
+  margin: 0 10px;
+}
+
+.home .main-content .home-slider .flexslider ol.flex-control-nav li a.flex-active {
+  background: white;
+  height: 20px;
+  width: 20px;
+  border: none;
+}

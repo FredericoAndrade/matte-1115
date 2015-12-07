@@ -1,0 +1,69 @@
+.page-id-11 .main-content .body-content#body-content {
+  padding-bottom: 0;
+}
+.page-id-11 .main-content .body-content .panel-grid .two-col .panel-grid-cell .widget_sow-image {
+  padding: 0 70px 40px;
+}
+.page-id-11 .main-content .body-content .panel-grid .two-col .panel-grid-cell .widget_sow-image .vertical .so-widget-sow-image {
+  max-height: 660px;
+}
+.page-id-13 .main-content .first-content .content-wrapper {
+  position: relative;
+  max-width: initial;
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  height: 100vh;
+  margin: -60px auto;
+}
+.page-id-13 .main-content .first-content .content-wrapper .views-position {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  max-width: 780px;
+  left: 50%;
+}
+.page-id-13 .main-content .first-content .content-wrapper .views-position h1.page-header {
+  font-size: 2.5em;
+}
+.page-id-13 .main-content .first-content .content-wrapper .views-position p.subheader {
+  font-family: 'serif', serif;
+  font-size: 1.3em;
+}
+.page-id-13 .main-content .first-content .content-wrapper .views-position button.module-trigger {
+  margin: auto;
+  display: block;
+}
+.page-id-16 .body-content .two-col .panel-grid-cell:first-of-type {
+  padding-right: 75px;
+  padding-right: 3vw;
+}
+.page-id-16 .body-content .two-col .panel-grid-cell:last-of-type {
+  padding-left: 75px;
+  padding-left: 3vw;
+}
+.page-id-16 .body-content .two-col .panel-grid-cell .widget_text .widget-title,
+.page-id-16 .body-content .two-col .panel-grid-cell .widget_text .textwidget {
+  padding: 0 !important;
+}
+.page-id-16 .other-amenities {
+  padding: 0 100px;
+}
+.page-id-16 .other-amenities .panel-grid-cell .panel-grid {
+  padding-top: 40px;
+}
+.page-id-16 .other-amenities .panel-grid-cell .panel-grid:not(:first-of-type) {
+  padding-bottom: 40px;
+}
+.page-id-16 .other-amenities .panel-grid-cell .panel-grid .panel-grid-cell h1 {
+  margin: 45px 0 20px;
+}
+.page-id-16 .other-amenities .panel-grid-cell .panel-grid:not(:first-of-type),
+.page-id-16 .other-amenities .panel-grid-cell .panel-grid:not(:first-of-type) .textwidget {
+  text-align: center !important;
+}
+.page-id-16 .other-amenities .panel-grid-cell .panel-grid:not(:first-of-type) .panel-grid-cell .widget_text {
+  padding: 0;
+}

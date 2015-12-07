@@ -1,0 +1,94 @@
+body {
+  position: relative;
+}
+
+nav {
+  font-family: "sans", sans-serif;
+  width: 520px;
+  min-height: 100vh;
+  height: 100%;
+  padding: 90px;
+  background: #0E292D;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  width: 400px;
+  padding: 50px;
+}
+
+nav * {
+  color: #F7F0E6;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul.links {
+  margin-top: 90px;
+}
+
+nav ul.links li a {
+    letter-spacing: 4px;
+    line-height: 2.5;
+}
+
+nav ul.dropdown {
+  padding-left: 15px;
+}
+
+nav ul.dropdown li button {
+  background: transparent;
+  border: none;
+  font-size: .8rem;
+  line-height: 2.5;
+  font-family: inherit;
+  text-transform: inherit;
+}
+
+nav section.nav-footer {
+  position: absolute;
+  bottom: 40px;
+  font-family: "serif", serif;
+}
+
+nav section.nav-footer .contact-info {
+  display: inline-block;
+  border-bottom: 1px solid #F7F0E6;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+nav section.nav-footer .contact-info p {
+  font-size: 1.2rem;
+  font-size: 1em;
+  letter-spacing: 2.4px;
+}
+
+nav section.nav-footer .contact-info p:last-of-type {
+  letter-spacing: 2.6px;
+}
+
+nav section.nav-footer .social-media ul {
+  display: table;
+  margin: auto;
+  float: none;
+}
+
+nav section.nav-footer .social-media ul li {
+  float: left;
+  padding: 10px;
+}
+
+nav section.nav-footer .social-media ul li.sackman img {
+  width: 120px;
+}
