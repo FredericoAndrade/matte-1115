@@ -1,15 +1,18 @@
 @media all and (min-width:601px) {
-  .home #mobile-header {
+  body #mobile-header {
     display: none;
   }
 }
 @media all and (max-width:600px) {
-  .home #mobile-header {
+  body #nav {
+    display: none;
+  }
+  body #mobile-header {
     background: #00253c;
     position: relative;
     height: 60px;
   }
-  .home #mobile-header #nav-trigger {
+  body #nav-trigger {
     position: absolute;
     top: 50%;
     left: 2%;
@@ -19,13 +22,13 @@
     color: #92624b;
     font-size: 40px;
   }
-  .home #mobile-header #mobile-logo {
+  body #mobile-logo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .home #mobile-header #mobile-logo img {
+  body #mobile-logo img {
     height: 45px;
     width: 100%;
   }
@@ -41,8 +44,5 @@
   .home .main-content .home-slider {
     height: 100vh;
     overflow: initial;
-  }
-  .home #nav {
-    display: none;
   }
 }
