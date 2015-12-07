@@ -67,6 +67,9 @@
 .page-id-16 .other-amenities .panel-grid-cell .panel-grid:not(:first-of-type) .panel-grid-cell .widget_text {
   padding: 0;
 }
+.page-id-24 #nav {
+  border-right: 1px solid #f4eee6;
+}
 .page-id-24 .main-content {
   color: #f4eee6;
   background: #00253c;
@@ -77,39 +80,83 @@
 .page-id-24 .main-content .two-col {
   width: 50%;
   float: left;
+  padding: 4vw;
+  box-sizing: border-box;
 }
 .page-id-24 .main-content .two-col ul {
   list-style-type: none;
   padding: 0;
 }
 .page-id-24 .main-content .two-col ul li {
-  width: 100%;
+  margin-bottom: 15px;
   display: inline-block;
 }
 .page-id-24 .main-content .two-col ul li fieldset legend {
+  padding: 10px 0;
+}
+.page-id-24 .main-content .two-col ul li fieldset legend,
+.page-id-24 .main-content .two-col ul li fieldset label,
+.page-id-24 .main-content .two-col ul li fieldset input {
   float: left;
 }
-.page-id-24 .main-content .two-col ul li fieldset label {
-  float: left;
+.page-id-24 .main-content .two-col ul li fieldset section {
+  float: right;
+  width: 60%;
 }
-.page-id-24 .main-content .two-col ul li fieldset label input {
-  float: left;
+.page-id-24 .main-content .two-col ul li fieldset section label {
+  padding: 10px 0;
+}
+.page-id-24 .main-content .two-col ul li fieldset section label:first-of-type {
+  margin-right: 40px;
+}
+.page-id-24 .main-content .two-col ul li fieldset section label input {
+  margin: 0 10px 0 0;
   width: initial;
 }
-.page-id-24 .main-content .two-col ul li label {
-  width: inherit;
+.page-id-24 .main-content .two-col ul li label,
+.page-id-24 .main-content .two-col ul li legend {
+  padding: 20px 0 0;
   float: left;
+  font-family: "Goldenbook-Light", serif;
 }
-.page-id-24 .main-content .two-col ul li label input,
-.page-id-24 .main-content .two-col ul li label select,
-.page-id-24 .main-content .two-col ul li label textarea {
+.page-id-24 .main-content .two-col ul li input,
+.page-id-24 .main-content .two-col ul li select,
+.page-id-24 .main-content .two-col ul li textarea {
+  outline: none;
+  padding: 9px 15px;
   border-radius: 0;
   background: transparent;
   border: 0px solid #f4eee6;
   border-bottom-width: 1px;
   width: 60%;
   float: right;
+  font-family: "sans", sans;
+  box-sizing: border-box;
+  min-height: 42px;
 }
-.page-id-24 .main-content .two-col ul li label select option {
+.page-id-24 .main-content .two-col ul li select {
+  border: 1px solid;
   border-radius: 0;
+  -webkit-appearance: none;
+}
+.page-id-24 .main-content .two-col.form ul li {
+  width: 100%;
+}
+.page-id-24 .main-content .two-col.form button {
+  background: #f4eee6;
+  color: #00253c;
+  display: block;
+  margin: auto;
+}
+.page-id-24 .main-content .two-col.info p,
+.page-id-24 .main-content .two-col.info a {
+  text-decoration: none;
+  color: #f4eee6;
+  font-family: "Goldenbook-Light", serif;
+}
+.page-id-24 .main-content .two-col.info ul.social-links li {
+  float: left;
+}
+.page-id-24 .main-content .two-col.info ul.social-links li a {
+  padding: 9px 15px 9px 0;
 }

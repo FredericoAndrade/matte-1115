@@ -1,4 +1,5 @@
-@import "variables.styl"
+@import "variables"
+
 // Page 13 - Residences
 .page-id-11
   .main-content
@@ -94,6 +95,9 @@
 //  Page 22 - vision
 //  Page 24 - contact
 .page-id-24
+  #nav
+    border-right 1px solid $cream
+
   .main-content
     color $cream
     background $blue
@@ -104,38 +108,81 @@
     .two-col
       width 50%
       float left
+      padding 4vw
+      box-sizing border-box
 
       ul
         list-style-type none
         padding 0
 
         li
-          width 100%
+          margin-bottom 15px
           display inline-block
 
           fieldset
             legend
+              padding 10px 0
+
+            legend, label, input
               float left
 
-            label
-              float left
+            section
+              float right
+              width 60%
 
-              input
-                float left
-                width initial
+              label
+                padding 10px 0
 
-          label
-            width inherit
+                &:first-of-type
+                  margin-right 40px
+
+                input
+                  margin 0 10px 0 0
+                  width initial
+
+          label, legend
+            padding 20px 0 0
+            float left
+            font-family "Goldenbook-Light", serif
+
+          input, select, textarea
+            outline none
+            padding 9px 15px
+            border-radius 0
+            background transparent
+            border 0px solid $cream
+            border-bottom-width 1px
+            width 60%
+            float right
+            font-family "sans", sans
+            box-sizing border-box
+            min-height 42px
+
+          select
+            border 1px solid
+            border-radius 0
+            -webkit-appearance none
+
+      &.form
+        ul
+          li
+            width 100%
+
+        button
+          background $cream
+          color $blue
+          display block
+          margin auto
+
+      &.info
+        p, a
+          text-decoration none
+          color $cream
+          font-family "Goldenbook-Light", serif
+
+        ul.social-links
+          li
             float left
 
-            input, select, textarea
-              border-radius 0
-              background transparent
-              border 0px solid $cream
-              border-bottom-width 1px
-              width 60%
-              float right
-
-            select
-              option
-                border-radius 0
+            a
+              padding 9px 15px 9px 0
