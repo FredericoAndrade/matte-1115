@@ -24,7 +24,7 @@
             </div>
             <ul class="links">
                 <?php
-                    $pages = get_pages('exclude=2');
+                    $pages = get_pages('sort_column=menu_order&exclude=2');
                     foreach ( $pages as $page ) :
                         $current_link = 'http' . (isset($_SERVER['HTTPS']) ? 's' : '') . '://' . $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
                         $permalink = get_page_link( $page->ID );
