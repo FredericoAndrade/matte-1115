@@ -14,81 +14,73 @@
 	<form action="">
 		<ul>
 			<li>
-				<label for="name">Name
-					<input type="text" name="name">
-				</label>
+				<label for="name">Name</label>
+				<input type="text" name="name">
 			</li>
 			<li>
-				<label for="email">Email
-					<input type="text" name="email">
-				</label>
+				<label for="email">Email</label>
+				<input type="text" name="email">
 			</li>
 			<li>
-				<label for="phone">Phone Number
-					<input type="text" name="phone">
-				</label>
+				<label for="phone">Phone Number</label>
+				<input type="text" name="phone">
 			</li>
 			<li>
-				<label for="address">Address
-					<input type="text" name="address">
-				</label>
+				<label for="address">Address</label>
+				<input type="text" name="address">
 			</li>
 			<li>
-				<label for="unit">Unit Type
-					<select name="unit" id="">
-						<option value="Select unit type">Select unit type</option>
-						<option value="Big unit">Big unit</option>
-						<option value="Small unit">Small unit</option>
-					</select>
-				</label>
+				<label for="unit">Unit Type</label>
+				<select name="unit" id="">
+					<option value="Select unit type">Select unit type</option>
+					<option value="Big unit">Big unit</option>
+					<option value="Small unit">Small unit</option>
+				</select>
 			</li>
 			<li>
-				<label for="price">Min-Max Price
-					<select name="price" id="">
-						<option value="Select Price Range">Select Price Range</option>
-						<option value="Cheap">Cheap</option>
-						<option value="Expensive">Expensive</option>
-					</select>
-				</label>
+				<label for="price">Min-Max Price</label>
+				<select name="price" id="">
+					<option value="Select Price Range">Select Price Range</option>
+					<option value="Cheap">Cheap</option>
+					<option value="Expensive">Expensive</option>
+				</select>
 			</li>
 			<li>
 				<fieldset>
 					<legend>Are you working with an agent</legend>
-					<label for="yes"><input type="radio" name="agent" value="yes">Yes</label>
-					<label for="no"><input type="radio" name="agent" value="no">No</label>
+					<section>
+						<label for="yes"><input type="radio" name="agent" value="yes">Yes</label>
+						<label for="no"><input type="radio" name="agent" value="no">No</label>
+					</section>
 				</fieldset>
 			</li>
 			<li>
-				<label for="index">Primary or Secondary Home?
-					<select name="unit" id="">
-						<option value="Select option">Select option</option>
-						<option value="Primary">Primary</option>
-						<option value="Secondary">Secondary</option>
-					</select>
-				</label>
+				<label for="index">Primary or Secondary Home?</label>
+				<select name="unit" id="">
+					<option value="Select option">Select option</option>
+					<option value="Primary">Primary</option>
+					<option value="Secondary">Secondary</option>
+				</select>
 			</li>
 			<li>
-				<label for="payment">Are you paying cash or financing?
-					<select name="payment" id="">
-						<option value="Select option">Select option</option>
-						<option value="Cash">Cash</option>
-						<option value="Financing">Financing</option>
-					</select>
-				</label>
+				<label for="payment">Are you paying cash or financing?</label>
+				<select name="payment" id="">
+					<option value="Select option">Select option</option>
+					<option value="Cash">Cash</option>
+					<option value="Financing">Financing</option>
+				</select>
 			</li>
 			<li>
-				<label for="source">How did you hear about us?
-					<select name="source" id="">
-						<option value="Select option">Select option</option>
-						<option value="Friends or family">Friends or family</option>
-						<option value="Advertizement">Advertizement</option>
-					</select>
-				</label>
+				<label for="source">How did you hear about us?</label>
+				<select name="source" id="">
+					<option value="Select option">Select option</option>
+					<option value="Friends or family">Friends or family</option>
+					<option value="Advertizement">Advertizement</option>
+				</select>
 			</li>
 			<li>
-				<label for="message">Questions or Comments?
-					<textarea name="message" id="" cols="30" rows="1"></textarea>
-				</label>
+				<label for="message">Questions or Comments?</label>
+				<textarea name="message" id="" cols="30" rows="1"></textarea>
 			</li>
 		</ul>
 		<button>Submit</button>
@@ -99,7 +91,7 @@
 	<h3 class="contact-info-header">Phone (9am-5pm)</h3>
 	<p><?php echo get_field('phone_number'); ?></p>
 	<h3 class="contact-info-header">Email</h3>
-	<p><?php echo get_field('email_address'); ?></p>
+	<a href="mailto:<?php echo get_field('email_address'); ?>"><?php echo get_field('email_address'); ?></a>
 	<h3 class="contact-info-header">Social</h3>
 	<ul class="social-links">
 		<li class="social">
@@ -115,7 +107,9 @@
 			<a href="https://www.instagram.com/70_rainey">Instagram</a>
 		</li>
 	</ul>
-	<!-- waiting on map asset and/or more info -->
+	<div class="map">
+		<img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/map.png" alt="map">
+	</div>
 </div>
 
 

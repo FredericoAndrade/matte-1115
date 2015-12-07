@@ -1,4 +1,4 @@
-@import "variables.styl"
+@import "variables"
 
 body
   position relative
@@ -30,12 +30,18 @@ body
       &.links
         margin-top 90px
 
-        li a
-          letter-spacing 4px
-          line-height 2.5
+        li
+          a
+            letter-spacing 4px
+            line-height 2.5
 
-      &.dropdown
-        padding-left 15px
+            &.active ~ .dropdown
+              height 74px
+
+          .dropdown
+            padding-left 15px
+            overflow hidden
+            height 0
 
         li button
           background transparent
@@ -60,15 +66,16 @@ body
         display inline-block
         border-bottom 1px solid $bronze
         margin-bottom 20px
+        margin-top 60px
         padding-bottom 10px
 
         p
           font-size 1.2rem
           font-size 1em
-          letter-spacing 2.4px
+          letter-spacing 1.8px
 
           &:last-of-type
-            letter-spacing 2.6px
+            letter-spacing 1.9px
 
       .social-media ul
         display table

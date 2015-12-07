@@ -1,5 +1,5 @@
-// sidebar window-height
 $(function() {
+  // sidebar window-height
   function overlapListener() {
     var h = $(window).height(),
     n = $("ul.links")
