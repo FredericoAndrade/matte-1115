@@ -18,6 +18,12 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div id="mobile-header">
+            <button id="nav-trigger">≡</button>
+            <div id="mobile-logo">
+                <a href="<?php bloginfo('url'); ?>"><img width="70px" src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/logomark.svg" alt=""></a>
+            </div>
+        </div>
         <nav id="nav">
             <div id="logo">
                 <a href="<?php bloginfo('url'); ?>"><img width="70px" src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/logomark.svg" alt=""></a>
