@@ -35,13 +35,18 @@ body
             letter-spacing 4px
             line-height 2.5
 
-            &.active ~ .dropdown
-              height 74px
+            &.active
+              &::before
+                content "•"
+                margin 0 5px 0 -17.5px
+
+              & ~ .dropdown
+                display block
 
           .dropdown
             padding-left 15px
             overflow hidden
-            height 0
+            display none
 
         li button
           background transparent

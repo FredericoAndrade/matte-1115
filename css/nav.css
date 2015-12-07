@@ -32,13 +32,17 @@ body nav ul.links li a {
   letter-spacing: 4px;
   line-height: 2.5;
 }
+body nav ul.links li a.active::before {
+  content: "•";
+  margin: 0 5px 0 -17.5px;
+}
 body nav ul.links li a.active ~ .dropdown {
-  height: 74px;
+  display: block;
 }
 body nav ul.links li .dropdown {
   padding-left: 15px;
   overflow: hidden;
-  height: 0;
+  display: none;
 }
 body nav ul.links li button {
   background: transparent;
