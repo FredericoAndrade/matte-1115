@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang=""
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -26,9 +26,11 @@
                 <?php
                     $pages = get_pages('exclude=2');
                     foreach ( $pages as $page ) :
+                        $current_link = 'http' . (isset($_SERVER['HTTPS']) ? 's' : '') . '://' . $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+                        $permalink = get_page_link( $page->ID );
                 ?>
                 <li>
-                    <a class="<?php echo $page->post_name . '-link'; ?>" href="<?php echo get_page_link( $page->ID ); ?>"><?php echo $page->post_title; ?></a>
+                    <a class="<?php echo $page->post_name . '-link'; if(strcmp($current_link,$permalink)==0) : echo ' active'; endif; ?>" href="<?php echo $permalink; ?>"><?php echo $page->post_title; ?></a>
                     <?php if ( $page->post_name == 'residences' ) : ?>
                     <ul class="dropdown">
                         <li><button class="module-trigger">Floor plans</button></li>
