@@ -107,7 +107,9 @@
 			<a href="https://www.instagram.com/70_rainey">Instagram</a>
 		</li>
 	</ul>
-	<!-- waiting on map asset and/or more info -->
+	<div class="map">
+		<img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/map.png" alt="map">
+	</div>
 </div>
 
 
