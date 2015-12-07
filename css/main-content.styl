@@ -1,8 +1,10 @@
+@import "variables.styl"
+
 .main-content
-  background #F8F0E8
+  background $cream
   min-height 100vh
   font-family 'sans', sans-serif
-  color #112C2F
+  color $blue
   width 100%
   display inline-block
 
@@ -29,7 +31,7 @@
 
   button
     background transparent
-    border 1px solid #112C2F
+    border 1px solid $blue
     padding 7px 30px
 
   .first-content button.inquiries
@@ -44,7 +46,7 @@
     bottom 0
     left 0
     right 0
-    background #F7F0E6
+    background $cream
     opacity 0.9
     z-index 0
 
@@ -95,7 +97,7 @@
     position relative
 
     h1
-      color #F7F0E6
+      color $cream
       font-size 2.5em
       box-sizing border-box
       margin 0
@@ -207,8 +209,8 @@
 
     button.inquiries
       font-family 'serif', serif
-      background #0E292D
-      color #F8F0E8
+      background $blue
+      color $cream
       margin 160px auto
       text-transform uppercase
       letter-spacing 6px

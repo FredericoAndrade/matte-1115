@@ -1,8 +1,8 @@
 .main-content {
-  background: #f8f0e8;
+  background: #f4eee6;
   min-height: 100vh;
   font-family: 'sans', sans-serif;
-  color: #112c2f;
+  color: #00253c;
   width: 100%;
   display: inline-block;
 }
@@ -29,7 +29,7 @@
 }
 .main-content button {
   background: transparent;
-  border: 1px solid #112c2f;
+  border: 1px solid #00253c;
   padding: 7px 30px;
 }
 .main-content .first-content button.inquiries {
@@ -44,7 +44,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #f7f0e6;
+  background: #f4eee6;
   opacity: 0.9;
   z-index: 0;
 }
@@ -95,7 +95,7 @@
   position: relative;
 }
 .main-content .banner-img h1 {
-  color: #f7f0e6;
+  color: #f4eee6;
   font-size: 2.5em;
   box-sizing: border-box;
   margin: 0;
@@ -187,8 +187,8 @@
 }
 .main-content .body-content button.inquiries {
   font-family: 'serif', serif;
-  background: #0e292d;
-  color: #f8f0e8;
+  background: #00253c;
+  color: #f4eee6;
   margin: 160px auto;
   text-transform: uppercase;
   letter-spacing: 6px;

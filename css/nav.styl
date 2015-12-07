@@ -1,0 +1,80 @@
+@import "variables.styl"
+
+body
+  position relative
+
+  nav
+    font-family "sans", sans-serif
+    width 520px
+    min-height 100vh
+    height 100%
+    padding 90px
+    background $blue
+    box-sizing border-box
+    position fixed
+    top 0
+    bottom 0
+    z-index 5
+    width 400px
+    padding 50px
+
+    *
+      color $bronze
+
+    ul
+      list-style-type none
+      padding 0
+      margin 0
+      text-transform uppercase
+
+      &.links
+        margin-top 90px
+
+        li a
+          letter-spacing 4px
+          line-height 2.5
+
+      &.dropdown
+        padding-left 15px
+
+        li button
+          background transparent
+          border none
+          font-size .8rem
+          line-height 2.5
+          font-family inherit
+          text-transform inherit
+
+    a
+      text-decoration none
+
+    section.nav-footer
+      position absolute
+      bottom 40px
+      font-family "serif", serif
+
+      .contact-info
+        display inline-block
+        border-bottom 1px solid $bronze
+        margin-bottom 20px
+        padding-bottom 10px
+
+        p
+          font-size 1.2rem
+          font-size 1em
+          letter-spacing 2.4px
+
+          &:last-of-type
+            letter-spacing 2.6px
+
+      .social-media ul
+        display table
+        margin auto
+        float none
+
+        li
+          float left
+          padding 10px
+
+          &.sackman img
+            width 120px
