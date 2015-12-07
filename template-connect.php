@@ -8,7 +8,7 @@
 
 ?>
 
-<div class="two-col">
+<div class="two-col form">
 	<h2 class="subheader">Request Information</h2>
 	<!-- add contact form markup here and I'll turn it into a plugin later -->
 	<form action="">
@@ -91,9 +91,10 @@
 				</label>
 			</li>
 		</ul>
+		<button>Submit</button>
 	</form>
 </div>
-<div class="two-col">
+<div class="two-col info">
 	<h2 class="subheader">Get In Touch</h2>
 	<h3 class="contact-info-header">Phone (9am-5pm)</h3>
 	<p><?php echo get_field('phone_number'); ?></p>
@@ -103,15 +104,15 @@
 	<ul class="social-links">
 		<li class="social">
 			<!-- waiting on these links -->
-			<a href="">Facebook</a>
+			<a href="https://www.facebook.com/SeventyRainey/">Facebook</a>
 		</li>
 		<li class="social">
 			<!-- waiting on these links -->
-			<a href="">Twitter</a>
+			<a href="https://twitter.com/70_rainey">Twitter</a>
 		</li>
 		<li class="social">
 			<!-- waiting on these links -->
-			<a href="">Instagram</a>
+			<a href="https://www.instagram.com/70_rainey">Instagram</a>
 		</li>
 	</ul>
 	<!-- waiting on map asset and/or more info -->
