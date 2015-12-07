@@ -51,6 +51,9 @@ body nav section.nav-footer {
   bottom: 40px;
   font-family: "serif", serif;
 }
+body nav section.nav-footer.overlapped {
+  position: initial;
+}
 body nav section.nav-footer .contact-info {
   display: inline-block;
   border-bottom: 1px solid #92624b;

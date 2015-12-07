@@ -2,20 +2,26 @@
 $(function() {
   function overlapListener() {
     var h = $(window).height(),
-    nTop = $("ul.links").offset().top,
-    nHeight = $("ul.links").height(),
+    n = $("ul.links")
+    nTop = n.offset().top,
+    nHeight = n.height(),
     nBottom = nTop + nHeight,
-    f = $("section.nav-footer").offset().top
+    f = $("section.nav-footer"),
+    fTop = f.offset().top,
+    fHeight = f.height(),
+    fPadding = 40,
+    pageHeight = nBottom+fHeight+fPadding
 
-    if($(f) <= nBottom) {
-      console.log('hi')
+    if(fTop<=nBottom) {
+      f.addClass("overlapped")
+    }
+    if(h>=pageHeight) {
+      f.removeClass("overlapped")
     }
   }
 
   $(window).on("load", function() {
-
     overlapListener()
-
   })
 
   $(window).on("resize", function() {
