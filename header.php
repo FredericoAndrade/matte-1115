@@ -11,7 +11,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/js/vendor/modernizr-2.8.3.min.js"></script>
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
@@ -45,10 +45,10 @@
                 </div>
                 <div class="social-media">
                     <ul>
-                        <li><a href="https://www.facebook.com/SeventyRainey/"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/facebook-icon-cream.svg" alt="Facebook" height="20px"></a></li>
-                        <li><a href="https://twitter.com/70_rainey"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/twitter-icon-cream.svg" alt="Twitter" width="20px"></a></li>
-                        <li><a href="https://www.instagram.com/70_rainey"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/instagram-icon-cream.svg" alt="Instagram" height="20px"></a></li>
-                        <li class="sackman"><a href="http://sackman.com/"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/Sackman-logo-cream.svg" alt="Sackman"></a></li>
+                        <li><a href="https://www.facebook.com/SeventyRainey/"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/facebook-icon-bronze.svg" alt="Facebook" height="20px"></a></li>
+                        <li><a href="https://twitter.com/70_rainey"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/twitter-icon-bronze.svg" alt="Twitter" width="20px"></a></li>
+                        <li><a href="https://www.instagram.com/70_rainey"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/instagram-icon-bronze.svg" alt="Instagram" height="20px"></a></li>
+                        <li class="sackman"><a href="http://sackman.com/"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/Sackman-logo-bronze.svg" alt="Sackman"></a></li>
                     </ul>
                 </div>
             </section>
