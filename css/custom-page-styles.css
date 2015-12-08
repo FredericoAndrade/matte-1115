@@ -181,3 +181,54 @@
 .page-id-24 .main-content .two-col.info ul.social-links li a {
   padding: 9px 15px 9px 0;
 }
+.page-id-26 .main-content {
+  float: left;
+  width: 100%;
+  padding: 60px 60px 60px 460px;
+  box-sizing: border-box;
+  color: #00253c;
+  font-family: "Goldenbook", serif;
+}
+.page-id-26 .main-content .blog-wrap .post {
+  padding-top: 120px;
+  display: inline-block;
+  border-bottom: 1px solid #00253c;
+}
+.page-id-26 .main-content .blog-wrap .post .subheader {
+  font-family: "sans", sans-serif;
+  margin: 0;
+  text-align: left;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .widget_text {
+  padding: 60px 60px 0;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .two-col .panel-grid-cell:first-of-type {
+  padding-right: 1vw;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .two-col .panel-grid-cell:last-of-type {
+  padding-left: 1vw;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .square {
+  overflow: hidden;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .square .so-widget-sow-image {
+  height: 0;
+  padding-bottom: 100%;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .square .so-widget-sow-image img {
+  max-width: initial !important;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .share-via {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 60px;
+  margin-bottom: 120px;
+  display: inline-block;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .share-via li {
+  float: left;
+  margin-right: 15px;
+}
+.page-id-26 .main-content .blog-wrap .post .post-content .share-via li a {
+  color: #00253c;
+}
