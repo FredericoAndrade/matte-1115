@@ -23,8 +23,9 @@
 		<div class="post-content">
 			<?php the_content(); ?>
 			<ul class="share-via">
+				<li>Share via</li>
 				<li class="share"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>" target="_blank">Facebook</a></li>
-				<li class="share"><a href="https://twitter.com/home?status=<?php echo "70 Rainey: "; the_title(); echo " "; the_permalink(); ?>" target="_blank"></a></li>
+				<li class="share"><a href="https://twitter.com/home?status=<?php echo "70 Rainey: "; the_title(); echo " "; the_permalink(); ?>" target="_blank">Twitter</a></li>
 				<li class="share"><a href="mailto:?&subject=<?php echo "70 Rainey: "; the_title(); ?>&body=<?php the_permalink(); ?>">E-mail</a></li>
 			</ul>
 		</div>
