@@ -20,6 +20,14 @@ $(function() {
     }
   }
 
+  $("a.scroll-down").click(function(e) {
+    e.preventDefault()
+    var t = $(this).attr("href")
+    $('html, body').animate({
+        scrollTop: $(t).offset().top
+    }, 500)
+  })
+
   $(window).on("load", function() {
     overlapListener()
   })
