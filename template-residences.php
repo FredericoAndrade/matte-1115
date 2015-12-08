@@ -31,7 +31,7 @@
 <?php get_template_part('includes/content', 'block'); ?>
 
 <div class="body-content">
-  <button class="inquiries module-trigger block-button"><span>Inquiries</span></button>
+  <button class="inquiries module-trigger block-button"><span><span class="line"></span>Inquiries</span></button>
 </div>
 
 <?php get_footer(); ?>
