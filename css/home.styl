@@ -1,0 +1,60 @@
+@import "variables"
+.home
+  .main-content
+    position absolute
+    top 0
+    left 520px
+    left 0
+    right 0
+    bottom 0
+    padding 0 0 0 400px
+    box-sizing border-box
+
+    .home-slider
+      max-width initial !important
+      height 100%
+      overflow hidden
+
+      > div
+        height 100%
+
+      .flexslider
+        margin 0
+
+      .flexslider,
+      .flexslider ul,
+      .flexslider ul li,
+      .flexslider ul li img
+        height inherit
+
+      .flexslider
+        ul li img
+          position absolute
+          width auto
+          left 50%
+          transform translateX(-50%)
+
+        ol.flex-control-nav
+          bottom 0
+          z-index 5
+          padding 45px
+          box-sizing border-box
+          width auto
+          left 50%
+          transform translateX(-50%)
+
+          li
+            float left
+
+            a
+              width 16px
+              height 16px
+              border 2px solid $cream
+              background transparent
+              margin 0 10px
+
+              &.flex-active
+                background $cream
+                height 20px
+                width 20px
+                border none
