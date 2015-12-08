@@ -53,10 +53,10 @@
                 </div>
                 <div class="social-media">
                     <ul>
-                        <li><a href="https://www.facebook.com/SeventyRainey/"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/facebook-icon-bronze.svg" alt="Facebook" height="20px"></a></li>
-                        <li><a href="https://twitter.com/70_rainey"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/twitter-icon-bronze.svg" alt="Twitter" width="20px"></a></li>
-                        <li><a href="https://www.instagram.com/70_rainey"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/instagram-icon-bronze.svg" alt="Instagram" height="20px"></a></li>
-                        <li class="sackman"><a href="http://sackman.com/"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/Sackman-logo-bronze.svg" alt="Sackman"></a></li>
+                        <li><a href="https://www.facebook.com/SeventyRainey/"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/facebook-icon-bronze.svg" alt="Facebook" height="14px"></a></li>
+                        <li><a href="https://twitter.com/70_rainey"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/twitter-icon-bronze.svg" alt="Twitter" width="14px"></a></li>
+                        <li><a href="https://www.instagram.com/70_rainey"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/icons/instagram-icon-bronze.svg" alt="Instagram" height="14px"></a></li>
+                        <li class="sackman"><a href="http://sackman.com/"><img src="<?php bloginfo('url'); ?>/wp-content/themes/rainey/img/Sackman-logo-bronze.svg" alt="Sackman" height="20px"></a></li>
                     </ul>
                 </div>
             </section>
