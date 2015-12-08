@@ -7,6 +7,22 @@
 .page-id-11 .main-content .body-content .panel-grid .two-col .panel-grid-cell .widget_sow-image .vertical .so-widget-sow-image {
   max-height: 660px;
 }
+.page-id-11 .main-content .body-content button.inquiries span {
+  border-bottom-width: 0;
+  position: relative;
+}
+.page-id-11 .main-content .body-content button.inquiries span span.line {
+  background: #f4eee6;
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: -7px;
+  right: 7px;
+  transition: width ease-in-out 0.2s;
+}
+.page-id-11 .main-content .body-content button.inquiries:hover span.line {
+  width: 96%;
+}
 .page-id-13 .main-content .first-content .content-wrapper {
   position: relative;
   max-width: initial;
@@ -48,6 +64,9 @@
 .page-id-16 .body-content .two-col .panel-grid-cell .widget_text .widget-title,
 .page-id-16 .body-content .two-col .panel-grid-cell .widget_text .textwidget {
   padding: 0 !important;
+}
+.page-id-16 .body-content .panel-grid .other-amenities .panel-grid-cell .widget .panel-grid .panel-grid-cell .widget .widget-title {
+  font-size: 1em;
 }
 .page-id-16 .other-amenities {
   padding: 0 100px;

@@ -30,9 +30,17 @@
     margin auto
 
   button
+    font-size 14px
+    letter-spacing 1px
     background transparent
     border 1px solid $blue
     padding 7px 30px
+    transition all ease-in-out .2s
+    color $blue
+
+    &:hover
+      color $cream
+      background $blue
 
   .first-content button.inquiries
     float right
@@ -59,6 +67,7 @@
   .subheader
     margin 50px auto 100px
     text-align center
+    letter-spacing 1px
 
   .copy-text
     margin-bottom 50px
@@ -84,6 +93,7 @@
       transform rotateZ(-90deg)
       display table
       margin auto
+      cursor pointer
 
     .scroll-down img
       display inline-block
@@ -126,7 +136,9 @@
         .panel-grid-cell
           .widget_text
             .widget-title
-              text-transform uppercase
+              letter-spacing 2px
+              margin-bottom 40px
+              font-size 1.4em
 
           .widget_sow-image .so-widget-sow-image
             overflow hidden

@@ -49,6 +49,8 @@ body nav ul.links li button {
   border: none;
   font-size: 0.8rem;
   line-height: 2.5;
+  letter-spacing: 4px;
+  outline: none;
   font-family: inherit;
   text-transform: inherit;
 }
